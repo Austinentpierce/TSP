@@ -14,11 +14,21 @@ export function App() {
   }
   console.log(n)
 
-  const colors = ['red', 'green', 'blue']
-  colors.forEach(function (color, index) {
-    console.log(`The color at position ${index} is ${color}`)
+  // const colors = ['red', 'green', 'blue']
+  // colors.forEach(function (color, index) {
+  //   console.log(`The color at position ${index} is ${color}`)
+  // })
+
+  const colors = ['red', 'blue', 'green']
+
+  const lengths = []
+
+  colors.forEach(function (color) {
+    const lengthOfColor = color.length
+
+    lengths.push(lengthOfColor)
   })
 
-  const originals = ['red', 'blue', 'green']
+  console.log(lengths)
   return <div>Hello, World</div>
 }
