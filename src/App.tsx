@@ -13,5 +13,12 @@ export function App() {
     n++
   }
   console.log(n)
+
+  const colors = ['red', 'green', 'blue']
+  colors.forEach(function (color, index) {
+    console.log(`The color at position ${index} is ${color}`)
+  })
+
+  const originals = ['red', 'blue', 'green']
   return <div>Hello, World</div>
 }
