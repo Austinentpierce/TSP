@@ -21,24 +21,36 @@ export function App() {
 
   const colors = ['red', 'blue', 'green']
 
-  const lengths = []
-
-  colors.forEach(function (color) {
+  const lengths = colors.map(function (color) {
     const lengthOfColor = color.length
 
-    lengths.push(lengthOfColor)
+    return lengthOfColor
   })
 
   console.log(lengths)
 
-  const uppercased = []
-
-  colors.forEach(function (color) {
+  const uppercased = colors.map(function (color) {
     const uppercase = color.toUpperCase()
 
-    uppercased.push(uppercase)
+    return uppercase
   })
-
   console.log(uppercased)
+  // colors.forEach(function (color) {
+  //   const lengthOfColor = color.length
+
+  //   lengths.push(lengthOfColor)
+  // })
+
+  // console.log(lengths)
+
+  // const uppercased = []
+
+  // colors.forEach(function (color) {
+  //   const uppercase = color.toUpperCase()
+
+  //   uppercased.push(uppercase)
+  // })
+
+  // console.log(uppercased)
   return <div>Hello, World</div>
 }
