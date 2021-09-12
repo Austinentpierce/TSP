@@ -36,17 +36,27 @@ export function App() {
   // })
   // console.log(uppercased)
 
+  // const colors = ['red', 'green', 'blue']
+
+  // const lengths = colors.map((color) => {
+  //   return color.length
+  // })
+
+  // console.log(lengths)
+
+  // const uppercased = colors.map((color) => {
+  //   return color.toUpperCase()
+  // })
+
+  // console.log(uppercased)
+
   const colors = ['red', 'green', 'blue']
 
-  const lengths = colors.map((color) => {
-    return color.length
-  })
+  const lengths = colors.map((color) => color.length)
 
   console.log(lengths)
 
-  const uppercased = colors.map((color) => {
-    return color.toUpperCase()
-  })
+  const uppercased = colors.map((color) => color.toUpperCase())
 
   console.log(uppercased)
 
