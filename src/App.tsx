@@ -19,21 +19,35 @@ export function App() {
   //   console.log(`The color at position ${index} is ${color}`)
   // })
 
-  const colors = ['red', 'blue', 'green']
+  // const colors = ['red', 'blue', 'green']
 
-  const lengths = colors.map(function (color) {
-    const lengthOfColor = color.length
+  // const lengths = colors.map(function (color) {
+  //   const lengthOfColor = color.length
 
-    return lengthOfColor
+  //   return lengthOfColor
+  // })
+
+  // console.log(lengths)
+
+  // const uppercased = colors.map(function (color) {
+  //   const uppercase = color.toUpperCase()
+
+  //   return uppercase
+  // })
+  // console.log(uppercased)
+
+  const colors = ['red', 'green', 'blue']
+
+  const lengths = colors.map((color) => {
+    return color.length
   })
 
   console.log(lengths)
 
-  const uppercased = colors.map(function (color) {
-    const uppercase = color.toUpperCase()
-
-    return uppercase
+  const uppercased = colors.map((color) => {
+    return color.toUpperCase()
   })
+
   console.log(uppercased)
 
   // Finding length of colors
