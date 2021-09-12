@@ -30,5 +30,15 @@ export function App() {
   })
 
   console.log(lengths)
+
+  const uppercased = []
+
+  colors.forEach(function (color) {
+    const uppercase = color.toUpperCase()
+
+    uppercased.push(uppercase)
+  })
+
+  console.log(uppercased)
   return <div>Hello, World</div>
 }
