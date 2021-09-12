@@ -35,6 +35,11 @@ export function App() {
     return uppercase
   })
   console.log(uppercased)
+
+  // Finding length of colors
+  // const colors = ['red', 'green', 'blue']
+  // const lengths = []
+
   // colors.forEach(function (color) {
   //   const lengthOfColor = color.length
 
@@ -43,6 +48,7 @@ export function App() {
 
   // console.log(lengths)
 
+  // Moving lowercase letters of colors to uppercase
   // const uppercased = []
 
   // colors.forEach(function (color) {
